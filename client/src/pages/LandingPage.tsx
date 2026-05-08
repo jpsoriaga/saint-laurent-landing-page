@@ -1,10 +1,10 @@
+import NavBar from "../components/NavBar/NavBar";
 
-
-export default function() {
+export default function LandingPage() {
     return(
         <>
-            <div>
-                
+            <div className="flex flex-col">
+                <NavBar />
             </div>
         </>
     );
