@@ -1,13 +1,18 @@
-import images from '../../assets/image.png'
+import Model from '../../assets/model.png'
+import DiscoverMore from './DiscoverMore'
 
 export default function HeroSection() {
     return (
-        <div className="relative pl-8">
-            <img src={images} alt="Model Picture" className='w-100 h-100 absolute right-0' />
+        <div className="flex relative pl-20">
+            <img src={Model} alt="Model Picture" className='w-150 h-auto absolute z-0 right-0' />
 
-            <div className="font-bodoni text-[10rem]">
+            <div className="mix-blend-difference text-white font-primary text-[15rem] z-10 relative leading-[0.85]">
                 <h1>YVES</h1>
-                <h1 className="">SAINT</h1>
+                <div className="flex justify-between items-center">
+                    <DiscoverMore />
+
+                    <h1>SAINT</h1>
+                </div>
                 <h1>LAURENT</h1>
             </div>
         </div>

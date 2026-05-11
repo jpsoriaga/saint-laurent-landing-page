@@ -3,13 +3,14 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: "DidotCustom";
-  src: url("../assets//fonts//Font-Primary.ttf") format("truetype");
+  font-family: "FontPrimary";
+  src: url("../assets//fonts//font-primary.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @theme {
+    --font-primary: "FontPrimary", serif;
     --font-bodoni: "Bodoni Moda", serif;
     --font-inter: "Inter", sans-serif;
     --font-open: "Open Sans", sans-serif;

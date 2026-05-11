@@ -3,7 +3,7 @@ import { MoveUpRight } from 'lucide-react';
 export default function DiscoverMore() {
     return(
         <>
-            <div className="flex flex-col gap-y-5">
+            <div className="flex font-inter text-base flex-col gap-y-5">
                 <p>THE HOUSE<br />OF YVES SAINT LAURENT<br />
                 <span className="italic">PARIS</span></p>
 
