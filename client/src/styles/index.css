@@ -42,6 +42,6 @@ body {
 }
 
 .text-hero-section {
-  @apply font-primary font-extralight text-[clamp(4rem,19vw,35rem)] tracking-[clamp(0.2rem,1.5vw,2rem)]
-   leading-[0.85];
+  @apply font-primary font-light text-[clamp(6rem,19vw,35rem)] tracking-wider
+   leading-[0.9];
 }

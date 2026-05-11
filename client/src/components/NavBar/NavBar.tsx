@@ -11,7 +11,7 @@ export default function NavBar() {
                     </div>
                 </button>
 
-                <img src={YslText} alt="YSL Logo Font" className="w-[clamp(120px,10vw,160px)] h-auto" />
+                <img src={YslText} alt="YSL Logo Font" className="w-[clamp(100px,10vw,160px)] h-auto" />
 
                 <button className="button-primary group">
                     <div className="flex flex-col transition-transform duration-400 group-hover:-translate-y-1/2">
