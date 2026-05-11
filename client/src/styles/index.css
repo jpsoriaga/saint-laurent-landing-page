@@ -16,6 +16,18 @@
     --font-open: "Open Sans", sans-serif;
 }
 
+@keyframes underline {
+  from {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  to {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+}
+
 body {
     @apply bg-[#f1efee];
     @apply font-inter;
