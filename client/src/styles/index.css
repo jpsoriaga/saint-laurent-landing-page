@@ -40,3 +40,8 @@ body {
 .button-primary {
     @apply relative overflow-hidden h-[40px] cursor-pointer;
 }
+
+.text-hero-section {
+  @apply font-primary font-extralight text-[clamp(4rem,19vw,35rem)] tracking-[clamp(0.2rem,1.5vw,2rem)]
+   leading-[0.85];
+}
