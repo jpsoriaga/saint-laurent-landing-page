@@ -16,6 +16,7 @@ export default function DiscoverMore() {
 
                 <div className="flex gap-x-2 items-center">
                     <button
+                        onClick={() => window.open("https://www.ysl.com/en-en", "_blank")}
                         onMouseEnter={() => setIsHovered(true)}
                         onMouseLeave={() => setIsHovered(false)}
                         className={`cursor-pointer ${!isHovered ? "underline underline-offset-5 relative" : "relative"}`}
