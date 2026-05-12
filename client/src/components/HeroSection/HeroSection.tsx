@@ -22,7 +22,7 @@ export default function HeroSection() {
                     </div>
 
                     <div>
-                        <p className="text-sm">SELF EXPRESSION IS<br />THE HIGHEST FORM OF<br />LUXURY.</p>
+                        <p className="text-sm">SELF EXPRESSION IS<br />THE HIGHEST FORM OF<br />LUXURY ewan.</p>
                     </div>
 
                     <div className="w-[40px] h-px bg-black"></div>
