@@ -1,16 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
 
 @import "tailwindcss";
 
-@font-face {
-  font-family: "FontPrimary";
-  src: url("../assets//fonts//font-primary.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-
 @theme {
-    --font-primary: "FontPrimary", serif;
+    --font-primary: "Cormorant Garamond", serif;
     --font-bodoni: "Bodoni Moda", serif;
     --font-inter: "Inter", sans-serif;
     --font-open: "Open Sans", sans-serif;
@@ -29,12 +23,12 @@
 }
 
 body {
-    @apply bg-[#f1efee];
+    @apply bg-[#f5ece1];
     @apply font-inter;
 }
 
 .bg-primary {
-    @apply bg-[#f1efee];
+    @apply bg-[#f5ece1];
 }
 
 .button-primary {
@@ -42,6 +36,6 @@ body {
 }
 
 .text-hero-section {
-  @apply font-primary font-light text-[clamp(6rem,19vw,35rem)] tracking-wider
-   leading-[0.9];
+  @apply font-primary font-medium leading-none;
+  font-size: clamp(40px, 10vw, 88px);
 }

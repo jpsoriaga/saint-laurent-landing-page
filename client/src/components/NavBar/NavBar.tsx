@@ -3,11 +3,11 @@ import YslText from "../../assets/ysl-text.png"
 export default function NavBar() {
     return (
         <>
-            <div className=" flex items-center justify-between py-12 px-5 sm:px-8">
+            <div className=" flex items-center justify-between py-12 px-5 sm:px-8 text-sm sm:text-base">
                 <button className="button-primary group">
                     <div className="flex flex-col items-center transition-transform duration-400 group-hover:-translate-y-1/2">
-                        <span className="h-[40px] flex items-center">MY PROFILE</span>
-                        <span className="font-primary text-xl tracking-wider h-[40px] flex items-center">MY PROFILE</span>
+                        <span className="h-[40px] flex items-center">ABOUT</span>
+                        <span className="font-primary text-base tracking-wider h-[40px] flex items-center">ABOUT</span>
                     </div>
                 </button>
 
@@ -16,7 +16,7 @@ export default function NavBar() {
                 <button className="button-primary group">
                     <div className="flex flex-col transition-transform duration-400 group-hover:-translate-y-1/2">
                         <span className="h-[40px] flex items-center">LA MAISON</span>
-                        <span className="font-primary text-xl tracking-wider h-[40px] flex items-center">LA MAISON</span>
+                        <span className="font-primary text-base tracking-wider h-[40px] flex items-center">LA MAISON</span>
                     </div>
                 </button>
             </div>
