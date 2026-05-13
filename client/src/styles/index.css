@@ -36,6 +36,6 @@ body {
 }
 
 .text-hero-section {
-  @apply font-primary font-medium leading-none;
-  font-size: clamp(40px, 10vw, 88px);
+  @apply font-primary font-medium leading-none lg:leading-[0.9] text-[clamp(40px,10vw,100px)]
+  lg:text-[clamp(70px,7.8vw,160px)];
 }
